@@ -406,7 +406,7 @@
       "filename": "lt_long_mm_16_64_frames_v1.1.ckpt",
       "url": "https://huggingface.co/Lightricks/LongAnimateDiff/resolve/main/lt_long_mm_16_64_frames_v1.1.ckpt"
     },
-    
+
     {
       "name": "animatediff/v3_sd15_sparsectrl_rgb.ckpt (ComfyUI-AnimateDiff-Evolved)",
       "type": "controlnet",
@@ -448,27 +448,6 @@
       "url": "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_adapter.ckpt"
     },
 
-    {
-      "name": "Segmind-Vega",
-      "type": "checkpoints",
-      "base": "segmind-vega",
-      "save_path": "checkpoints/segmind-vega",
-      "description": "The Segmind-Vega Model is a distilled version of the Stable Diffusion XL (SDXL), offering a remarkable 70% reduction in size and an impressive 100% speedup while retaining high-quality text-to-image generation capabilities.",
-      "reference": "https://huggingface.co/segmind/Segmind-Vega",
-      "filename": "segmind-vega.safetensors",
-      "url": "https://huggingface.co/segmind/Segmind-Vega/resolve/main/segmind-vega.safetensors"
-    },
-    {
-      "name": "Segmind-VegaRT - Latent Consistency Model (LCM) LoRA of Segmind-Vega",
-      "type": "lora",
-      "base": "segmind-vega",
-      "save_path": "loras/segmind-vega",
-      "description": "Segmind-VegaRT a distilled consistency adapter for Segmind-Vega that allows to reduce the number of inference steps to only between 2 - 8 steps.",
-      "reference": "https://huggingface.co/segmind/Segmind-VegaRT",
-      "filename": "pytorch_lora_weights.safetensors",
-      "url": "https://huggingface.co/segmind/Segmind-VegaRT/resolve/main/pytorch_lora_weights.safetensors"
-    },
-    
     {
       "name": "stabilityai/Stable Zero123",
       "type": "zero123",
@@ -598,37 +577,6 @@
       "reference": "https://huggingface.co/h94/IP-Adapter",
       "filename": "ip-adapter-plus-face_sdxl_vit-h.safetensors",
       "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors"
-    },
-
-    {
-      "name": "SDXL-Turbo 1.0 (fp16)",
-      "type": "checkpoints",
-      "base": "SDXL",
-      "save_path": "checkpoints/SDXL-TURBO",
-      "description": "[6.9GB] SDXL-Turbo 1.0 fp16",
-      "reference": "https://huggingface.co/stabilityai/sdxl-turbo",
-      "filename": "sd_xl_turbo_1.0_fp16.safetensors",
-      "url": "https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors"
-    },
-    {
-      "name": "SDXL-Turbo 1.0",
-      "type": "checkpoints",
-      "base": "SDXL",
-      "save_path": "checkpoints/SDXL-TURBO",
-      "description": "[13.9GB] SDXL-Turbo 1.0",
-      "reference": "https://huggingface.co/stabilityai/sdxl-turbo",
-      "filename": "sd_xl_turbo_1.0.safetensors",
-      "url": "https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0.safetensors"
-    },
-    {
-      "name": "Stable Video Diffusion Image-to-Video",
-      "type": "checkpoints",
-      "base": "SVD",
-      "save_path": "checkpoints/SVD",
-      "description": "Stable Video Diffusion (SVD) Image-to-Video is a diffusion model that takes in a still image as a conditioning frame, and generates a video from it.\nNOTE: 14 frames @ 576x1024",
-      "reference": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid",
-      "filename": "svd.safetensors",
-      "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/resolve/main/svd.safetensors"
     }
   ]
 }
